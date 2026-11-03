@@ -104,8 +104,9 @@ if interval in {"5m", "15m", "30m", "60m"} and period not in {"1d", "5d"}:
 # ----------------------------
 # Download and prepare data
 # ----------------------------
-@st.cache_data(ttl=55)
+@st.cache_data(ttl=300)
 def get_market_data(symbol: str, requested_period: str, requested_interval: str):
+    
     frame = yf.download(
         symbol,
         period=requested_period,

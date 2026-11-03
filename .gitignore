@@ -1,0 +1,13 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local data and outputs
+*.csv

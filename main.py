@@ -1,9 +1,6 @@
 import yfinance as yf
 import pandas as pd
-import streamlit as st
 
-st.title("Day Trading Assistant")
-st.write("The Streamlit page is rendering.")
 # Download Nifty 50 data
 data = yf.download(
     "^NSEI",

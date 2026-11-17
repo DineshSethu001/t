@@ -422,48 +422,4 @@ The long-term vision is to develop this into a complete personal algorithmic tra
 
 AI-generated analysis should assist with research and explanations, not independently authorize trades.
 
-## **15. Final product summary**
 
-## **Python Trading Assistant – MVP**
-
-# **Paper Trading First**
-
-**Core deliverable**
-
-A Python-based trading platform that combines market-data processing, technical analysis, ORB strategy, historical backtesting, risk management and a Streamlit dashboard.
-
-**Initial target:** Nifty 50 and Nifty Bank.
-
-**Primary success metric:** Reliable, reproducible strategy evaluation and disciplined paper-trading execution, rather than promising profits.
-
-## **Let's make the PRD match your actual Python project**
-
-I have the earlier SMA/RSI implementation and ORB plans as a starting point, but I haven't inspected your current source code. I'd like to align the final requirements with what you've actually built.
-
-**1. What should the PRD cover?**
-
-Existing Python code only
-
-Existing code + future features
-
-Complete professional trading platform
-
-**2. Preferred interface**
-
-Python terminal / CLI
-
-Streamlit dashboard
-
-React frontend + Python backend
-
-**3. Broker integration**
-
-Zerodha Kite Connect
-
-Paper trading only
-
-Multiple brokers
-
-Refine my PRD
-
-If you upload your Python project or paste its main `.py` file, I can also produce a code-accurate PRD with the existing features clearly separated from proposed features. 🚀
